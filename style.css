@@ -40,16 +40,10 @@ a {
   color: inherit;
 }
 
-/* =========================================
-   SCROLLBAR
-   ========================================= */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 3px; }
 
-/* =========================================
-   AMBIENT BACKGROUND GLOW
-   ========================================= */
 .ambient {
   position: fixed;
   inset: 0;
@@ -61,9 +55,6 @@ a {
     radial-gradient(ellipse 40% 40% at 50% 50%,  rgba(59, 130, 246, 0.03) 0%, transparent 70%);
 }
 
-/* =========================================
-   NAVBAR
-   ========================================= */
 nav {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -118,7 +109,6 @@ nav {
 }
 .nav-hire:hover { background: var(--primary2) !important; }
 
-/* ---- Hamburger ---- */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -140,7 +130,6 @@ nav {
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ---- Mobile Drawer ---- */
 .drawer {
   display: none;
   position: fixed;
@@ -169,9 +158,6 @@ nav {
   background: rgba(59, 130, 246, 0.08);
 }
 
-/* =========================================
-   HERO SECTION
-   ========================================= */
 #home {
   min-height: 100vh;
   padding: calc(var(--nav-h) + 70px) 6vw 80px;
@@ -182,7 +168,6 @@ nav {
   z-index: 1;
 }
 
-/* Status pill */
 .hero-pill {
   display: inline-flex;
   align-items: center;
@@ -216,7 +201,6 @@ nav {
   to   { opacity: 1; transform: none; }
 }
 
-/* Hero two-column grid */
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 370px;
@@ -225,7 +209,6 @@ nav {
   max-width: 1200px;
 }
 
-/* Hero left */
 .hero-sub {
   font-size: 0.85rem;
   font-weight: 700;
@@ -274,7 +257,6 @@ nav {
   animation: fadeU 0.7s 0.5s both;
 }
 
-/* ---- Buttons ---- */
 .btn-primary {
   background: var(--primary);
   color: #fff;
@@ -337,7 +319,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* Hero right card */
 .hero-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -438,7 +419,6 @@ nav {
   background: rgba(59, 130, 246, 0.08);
 }
 
-/* ---- Marquee ---- */
 .marquee-wrap {
   margin-top: 60px;
   overflow: hidden;
@@ -479,9 +459,6 @@ nav {
   to   { opacity: 1; transform: none; }
 }
 
-/* =========================================
-   SECTION BASE
-   ========================================= */
 .section {
   padding: 96px 6vw;
   position: relative;
@@ -526,9 +503,6 @@ nav {
   margin: 0 6vw;
 }
 
-/* =========================================
-   ABOUT SECTION
-   ========================================= */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -588,7 +562,6 @@ nav {
   background: rgba(34, 197, 94, 0.07);
 }
 
-/* Education cards */
 .edu-stack {
   display: flex;
   flex-direction: column;
@@ -632,9 +605,6 @@ nav {
   line-height: 1.65;
 }
 
-/* =========================================
-   SKILLS SECTION
-   ========================================= */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -694,9 +664,6 @@ nav {
 .blue-card  .sk-pill:hover { border-color: var(--primary); color: var(--primary); background: rgba(59, 130, 246, 0.10); }
 .green-card .sk-pill:hover { border-color: var(--accent);  color: var(--accent);  background: rgba(34, 197, 94,  0.08); }
 
-/* =========================================
-   PROJECTS SECTION
-   ========================================= */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -808,9 +775,6 @@ nav {
 .pa-ghost { background: transparent; color: var(--light); border: 2px solid var(--border); }
 .pa-ghost:hover { border-color: var(--primary); color: var(--primary); }
 
-/* =========================================
-   GITHUB BANNER
-   ========================================= */
 .gh-banner {
   background: var(--card);
   border: 1px solid var(--border);
@@ -868,9 +832,6 @@ nav {
   letter-spacing: 1px;
 }
 
-/* =========================================
-   RESUME SECTION
-   ========================================= */
 .resume-grid {
   display: grid;
   grid-template-columns: 1fr 420px;
@@ -921,9 +882,6 @@ nav {
 .rc-name  { font-family: 'Oxanium', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--text); margin-bottom: 5px; }
 .rc-sub   { font-size: 0.78rem; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
 
-/* =========================================
-   CONTACT SECTION
-   ========================================= */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.15fr;
@@ -968,7 +926,6 @@ nav {
 .c-lbl { font-size: 0.58rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 3px; }
 .c-val  { font-size: 0.88rem; font-weight: 700; color: var(--text); }
 
-/* Contact form */
 .contact-form {
   background: var(--card);
   border: 1px solid var(--border);
@@ -1006,9 +963,6 @@ nav {
 }
 .cf-textarea { height: 110px; }
 
-/* =========================================
-   FOOTER
-   ========================================= */
 footer {
   background: var(--card);
   border-top: 1px solid var(--border);
@@ -1031,17 +985,11 @@ footer {
 .footer-links a { font-size: 0.72rem; font-weight: 700; color: var(--muted); transition: color 0.2s; }
 .footer-links a:hover { color: var(--primary); }
 
-/* =========================================
-   SCROLL REVEAL ANIMATIONS
-   ========================================= */
 .reveal   { opacity: 0; transform: translateY(28px);  transition: opacity 0.7s, transform 0.7s; }
 .reveal-l { opacity: 0; transform: translateX(-28px); transition: opacity 0.7s, transform 0.7s; }
 .reveal-r { opacity: 0; transform: translateX(28px);  transition: opacity 0.7s, transform 0.7s; }
 .reveal.v, .reveal-l.v, .reveal-r.v { opacity: 1; transform: none; }
 
-/* =========================================
-   RESPONSIVE — 1024px (Tablet)
-   ========================================= */
 @media (max-width: 1024px) {
   .hero-grid    { grid-template-columns: 1fr; }
   .hero-card    { max-width: 460px; }
@@ -1052,9 +1000,6 @@ footer {
   .contact-grid { grid-template-columns: 1fr; }
 }
 
-/* =========================================
-   RESPONSIVE — 768px (Mobile)
-   ========================================= */
 @media (max-width: 768px) {
   nav                          { padding: 0 20px; }
   .nav-links                   { display: none; }
@@ -1075,9 +1020,6 @@ footer {
   .resume-card                 { padding: 36px 24px; }
 }
 
-/* =========================================
-   RESPONSIVE — 480px (Small Mobile)
-   ========================================= */
 @media (max-width: 480px) {
   .hero-name  { font-size: 2.5rem; }
   .sec-title  { font-size: 1.85rem; }
