@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Santhoush S — Python Developer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700;800&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="ambient"></div>
+
+  <nav>
+    <a href="#home" class="nav-logo">
+      <span class="bracket">[</span>
+      <span class="name-txt">Santhoush.S</span>
+      <span class="bracket">]</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#home"     class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact" class="nav-hire">Hire Me</a></li>
+    </ul>
+
+    <button class="hamburger" id="ham" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="drawer" id="drawer">
+    <a href="#home"     onclick="closeDrawer()">Home</a>
+    <a href="#about"    onclick="closeDrawer()">About</a>
+    <a href="#skills"   onclick="closeDrawer()">Skills</a>
+    <a href="#projects" onclick="closeDrawer()">Projects</a>
+    <a href="#resume"   onclick="closeDrawer()">Resume</a>
+    <a href="#contact"  onclick="closeDrawer()" style="color:var(--primary)">Hire Me</a>
+  </div>
+
+  <section id="home">
+
+    <div class="hero-pill">
+      <div class="pill-dot"></div>
+      Available for Opportunities
+    </div>
+
+    <div class="hero-grid">
+
+      <div>
+        <p class="hero-sub">HI, I'm</p>
+        <h1 class="hero-name">
+          SANTHOUSH<br>
+          <span class="blue">S</span><span class="green">.</span>
+        </h1>
+        <p class="hero-role"><b>Python Developer</b></p>
+        <p class="hero-bio">
+          Passionate developer skilled in Python, C#, ASP.NET &amp; SQL Server.
+          I build clean, efficient software — from management systems to health
+          monitoring backends. Hackathon veteran. Quick learner. Always improving.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects →</a>
+          <a href="#contact"  class="btn-accent">Hire Me ✉</a>
+          <a href="#resume"   class="btn-outline">Download CV ↓</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hc-avatar">SS</div>
+        <div class="hc-name">Santhoush S.</div>
+        <div class="hc-role">Python Developer</div>
+        <div class="hc-divider"></div>
+        <div class="hc-stats">
+          <div class="hc-stat">
+            <div class="hc-stat-n">10+</div>
+            <div class="hc-stat-l">Projects</div>
+          </div>
+          <div class="hc-stat">
+            <div class="hc-stat-n">7+</div>
+            <div class="hc-stat-l">Skills</div>
+          </div>
+          <div class="hc-stat">
+            <div class="hc-stat-n">24H</div>
+            <div class="hc-stat-l">Hackathons</div>
+          </div>
+        </div>
+        <div class="hc-links">
+          <a href="https://github.com/santhoush007"        target="_blank" class="hc-link">GitHub</a>
+          <a href="https://www.linkedin.com/in/santhoushs" target="_blank" class="hc-link">LinkedIn</a>
+          <a href="mailto:santhoushs007@gmail.com"                          class="hc-link">Email</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <div class="m-tag"><span class="dot-b">▸</span> HTML</div>
+        <div class="m-tag"><span class="dot-g">▸</span> CSS</div>
+        <div class="m-tag"><span class="dot-b">▸</span> JavaScript</div>
+        <div class="m-tag"><span class="dot-g">▸</span> React</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Node.js</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Python</div>
+        <div class="m-tag"><span class="dot-g">▸</span> C#</div>
+        <div class="m-tag"><span class="dot-b">▸</span> ASP.NET</div>
+        <div class="m-tag"><span class="dot-g">▸</span> SQL Server</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Git &amp; GitHub</div>
+        <div class="m-tag"><span class="dot-g">▸</span> VS Code</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Visual Studio</div>
+        <div class="m-tag"><span class="dot-g">▸</span> .NET Framework</div>
+        <!-- Duplicate set for seamless infinite loop -->
+        <div class="m-tag"><span class="dot-b">▸</span> HTML</div>
+        <div class="m-tag"><span class="dot-g">▸</span> CSS</div>
+        <div class="m-tag"><span class="dot-b">▸</span> JavaScript</div>
+        <div class="m-tag"><span class="dot-g">▸</span> React</div>
+        M<div class="m-tag"><span class="dot-b">▸</span> Node.js</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Python</div>
+        <div class="m-tag"><span class="dot-g">▸</span> C#</div>
+        <div class="m-tag"><span class="dot-b">▸</span> ASP.NET</div>
+        <div class="m-tag"><span class="dot-g">▸</span> SQL Server</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Git &amp; GitHub</div>
+        <div class="m-tag"><span class="dot-g">▸</span> VS Code</div>
+        <div class="m-tag"><span class="dot-b">▸</span> Visual Studio</div>
+        <div class="m-tag"><span class="dot-g">▸</span> .NET Framework</div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+
+  <section id="about" class="section section-alt">
+
+    <div class="eyebrow"><div class="bar"></div>01 — About Me</div>
+    <h2 class="sec-title">Who I <span class="blue">Am</span></h2>
+
+    <div class="about-grid">
+
+      <div class="reveal-l">
+        <div class="about-text">
+          <p>
+            I'm Santhoush — an Entry-Level software developer with a strong interest
+            in Python development and backend technologies. I enjoy building practical
+            applications that solve real-world problems.
+          </p>
+          <p>
+            I've developed projects like a Student Record Management System, Smart
+            Health Monitoring backend, and a Netflix UI Clone. Beyond code, I've
+            competed in several 24-hour hackathons and attended technical workshops
+            and symposiums.
+          </p>
+        </div>
+
+        <div class="objective-box">
+          <div class="ob-label">Career Objective</div>
+          <p class="ob-text">
+            "Motivated developer seeking to apply my skills in Python programming,Frameworks Django
+            and SQL Server to build efficient, innovative solutions — contributing to
+            organizational growth while advancing my own career."
+          </p>
+        </div>
+
+        <div class="int-tags">
+          <span class="int-tag">Python Dev</span>
+          <span class="int-tag">Backend Dev</span>
+          <span class="int-tag">Web Apps</span>
+          <span class="int-tag">Database Mgmt</span>
+          <span class="int-tag">API Integration</span>
+          <span class="int-tag">Software Engineering</span>
+        </div>
+      </div>
+
+      <div class="reveal-r">
+        <div class="eyebrow" style="margin-bottom:22px;"><div class="bar"></div>Education</div>
+        <div class="edu-stack">
+
+          <div class="edu-card">
+            <div class="edu-icon blue">🎓</div>
+            <div>
+              <div class="edu-deg">B.E. — Computer Science &amp; Engineering</div>
+              <div class="edu-det">
+                Currently pursuing undergraduate degree focused on software development,
+                programming, and backend technologies. Active in hackathons &amp; workshops.
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon green">📘</div>
+            <div>
+              <div class="edu-deg">Higher Secondary — 12th Grade</div>
+              <div class="edu-det">
+                Mathematics &amp; Computer Science stream. Developed a strong interest
+                in programming and technology.
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon blue">📗</div>
+            <div>
+              <div class="edu-deg">Secondary School — 10th Grade</div>
+              <div class="edu-det">
+                Strong academic foundation in analytical thinking and problem-solving skills.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+  <section id="skills" class="section">
+
+    <div class="eyebrow"><div class="bar"></div>02 — Technical Skills</div>
+    <h2 class="sec-title">My Tech <span class="green">Stack</span></h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card blue-card reveal">
+        <div class="sk-emoji">⌨️</div>
+        <div class="sk-label">Languages</div>
+        <div class="sk-pills">
+          <span class="sk-pill">HTML</span>
+          <span class="sk-pill">CSS</span>
+          <span class="sk-pill">Javascript</span>
+          <span class="sk-pill">C</span>
+          <span class="sk-pill">Node.js</span>
+          <span class="sk-pill">Python</span>
+            <span class="sk-pill">C#</span>
+        </div>
+      </div>
+
+      <div class="skill-card green-card reveal" style="transition-delay: 0.1s">
+        <div class="sk-emoji">🧩</div>
+        <div class="sk-label">Frameworks</div>
+        <div class="sk-pills">
+          <span class="sk-pill">ASP.NET</span>
+          <span class="sk-pill">.NET Framework</span>
+          <span class="sk-pill">React</span>
+        </div>
+      </div>
+
+      <div class="skill-card blue-card reveal" style="transition-delay: 0.2s">
+        <div class="sk-emoji">🗄️</div>
+        <div class="sk-label">Databases</div>
+        <div class="sk-pills">
+          <span class="sk-pill">MS SQL Server</span>
+        </div>
+      </div>
+
+      <div class="skill-card green-card reveal" style="transition-delay: 0.3s">
+        <div class="sk-emoji">🛠️</div>
+        <div class="sk-label">Tools &amp; Platforms</div>
+        <div class="sk-pills">
+          <span class="sk-pill">Git</span>
+          <span class="sk-pill">GitHub</span>
+          <span class="sk-pill">Visual Studio</span>
+          <span class="sk-pill">VS Code</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+  <section id="projects" class="section section-alt">
+
+    <div class="eyebrow"><div class="bar"></div>03 — Projects</div>
+    <h2 class="sec-title">Things I've <span class="blue">Built</span></h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="proj-card reveal">
+        <div class="proj-glow blue"></div>
+        <div class="proj-num">01</div>
+        <div class="proj-badge badge-blue">● Backend · Database</div>
+        <h3 class="proj-name">Student Record Management System</h3>
+        <p class="proj-desc">
+          A comprehensive system for managing student data — enrollment, grades, attendance,
+          and academic history — with full CRUD operations via a structured admin interface.
+        </p>
+        <div class="proj-techs">
+          <span class="p-tech">HTML</span>
+          <span class="p-tech">CSS</span>
+          <span class="p-tech">Python</span>
+          <span class="p-tech">SQL Server</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://github.com/santhoush007" target="_blank" class="pa-btn pa-primary">GitHub →</a>
+          <span class="pa-btn pa-ghost">Demo Soon</span>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="proj-card reveal" style="transition-delay: 0.12s">
+        <div class="proj-glow green"></div>
+        <div class="proj-num">02</div>
+        <div class="proj-badge badge-green">● Frontend · UI Clone</div>
+        <h3 class="proj-name">Netflix UI Clone</h3>
+        <p class="proj-desc">
+          A pixel-perfect clone of the Netflix interface — replicating layout, navigation,
+          hero banners, and content rows. Demonstrates strong frontend &amp; UI/UX attention to detail.
+        </p>
+        <div class="proj-techs">
+          <span class="p-tech">HTML</span>
+          <span class="p-tech">CSS</span>
+          <span class="p-tech">JavaScript</span>
+          <span class="p-tech">React</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://github.com/santhoush007/Netflix_Clone" target="_blank" class="pa-btn pa-primary green">GitHub →</a>
+          <span class="pa-btn pa-ghost">Demo Soon</span>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="proj-card reveal" style="transition-delay: 0.24s">
+        <div class="proj-glow blue"></div>
+        <div class="proj-num">03</div>
+        <div class="proj-badge badge-mixed">● Backend · Health Tech</div>
+        <h3 class="proj-name">Smart Health Monitoring System</h3>
+        <p class="proj-desc">
+          A backend that monitors health metrics in real time — collecting heart rate &amp;
+          activity data, storing it in a database, and generating alerts when values
+          exceed safe thresholds.
+        </p>
+        <div class="proj-techs">
+          <span class="p-tech">Python</span>
+          <span class="p-tech">SQL Server</span>
+          <span class="p-tech">API Integration</span>
+          <span class="p-tech">Circuit Board</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://github.com/santhoush007/Smart-Health_suite" target="_blank" class="pa-btn pa-primary">GitHub →</a>
+          <span class="pa-btn pa-ghost">Demo Soon</span>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="proj-card reveal" style="transition-delay: 0.36s">
+        <div class="proj-glow green"></div>
+        <div class="proj-num">04</div>
+        <div class="proj-badge badge-green">● Frontend · Web App</div>
+        <h3 class="proj-name">Recipe Finder App</h3>
+        <p class="proj-desc">
+          A responsive frontend web application that lets users search and discover recipes
+          by ingredient, cuisine, or meal type. Features dynamic search filtering, recipe
+          cards with ingredients and instructions, and a clean, intuitive UI.
+        </p>
+        <div class="proj-techs">
+          <span class="p-tech">HTML</span>
+          <span class="p-tech">CSS</span>
+          <span class="p-tech">JavaScript</span>
+          <span class="p-tech">React</span>
+          <span class="p-tech">API Integration</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://github.com/santhoush007/Recipe_Finder" target="_blank" class="pa-btn pa-primary green">GitHub →</a>
+          <span class="pa-btn pa-ghost">Demo Soon</span>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="proj-card reveal" style="transition-delay: 0.48s">
+        <div class="proj-glow blue"></div>
+        <div class="proj-num">05</div>
+        <div class="proj-badge badge-blue">● Backend · ASP.NET</div>
+        <h3 class="proj-name">Student Registration — ASP.NET</h3>
+        <p class="proj-desc">
+          A full-featured student registration backend built with ASP.NET. Handles
+          new student onboarding, form validation, data persistence to SQL Server,
+          and administrative management of registration records through a structured web interface.
+        </p>
+        <div class="proj-techs">
+          <span class="p-tech">ASP.NET</span>
+          <span class="p-tech">C#</span>
+          <span class="p-tech">SQL Server</span>
+          <span class="p-tech">.NET Framework</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://github.com/santhoush007/Student-Registration-ASP-NET" target="_blank" class="pa-btn pa-primary">GitHub →</a>
+          <span class="pa-btn pa-ghost">Demo Soon</span>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="proj-card reveal" style="transition-delay: 0.60s">
+        <div class="proj-glow green"></div>
+        <div class="proj-num">06</div>
+        <div class="proj-badge badge-mixed">● Desktop · WinForms</div>
+        <h3 class="proj-name">WinForms Drawing &amp; Webcam App</h3>
+        <p class="proj-desc">
+          A Windows desktop application built with WinForms that combines a freehand
+          drawing canvas with live webcam integration. Users can sketch, annotate, and
+          capture webcam frames directly onto the canvas — demonstrating hardware interfacing
+          and GDI+ graphics rendering in C#.
+        </p>
+        <div class="proj-techs">
+          <span class="p-tech">C#</span>
+          <span class="p-tech">WinForms</span>
+          <span class="p-tech">GDI+</span>
+          <span class="p-tech">.NET Framework</span>
+          <span class="p-tech">Webcam API</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://github.com/santhoush007/WinForms-Drawing-Webcam" target="_blank" class="pa-btn pa-primary green">GitHub →</a>
+          <span class="pa-btn pa-ghost">Demo Soon</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+
+    <div class="eyebrow"><div class="bar"></div>04 — Open Source</div>
+
+    <div class="gh-banner reveal">
+      <div>
+        <div class="gh-eyebrow">All my work lives here</div>
+        <div class="gh-title">GitHub Profile</div>
+        <p class="gh-sub">
+          Explore repositories showcasing Python, C#, ASP.NET, and full-stack web development.
+          Each project reflects growth and a passion for building real solutions.
+        </p>
+      </div>
+      <div class="gh-right">
+        <div class="gh-url">github.com/santhoush007</div>
+        <a href="https://drive.google.com/file/d/1XqGcj-DEUpzo04THixe82ExOvLmsOYJB/view?usp=sharing" target="_blank" class="btn-primary" style="white-space:nowrap;">
+          Visit GitHub →
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="resume" class="section section-alt">
+
+    <div class="resume-grid reveal">
+
+      <div>
+        <div class="rv-eyebrow">05 — Resume</div>
+        <div class="rv-title">Download<br/>My <span class="blue">CV</span></div>
+        <p class="rv-desc">
+          My resume provides a detailed overview of my technical skills, education, project
+          experience, and participation in hackathons and workshops.
+          Download it to get the full picture.
+        </p>
+      </div>
+
+      <div class="resume-card">
+        <span class="rc-icon">📄</span>
+        <div class="rc-name">Santhoush S.</div>
+        <div class="rc-sub">Python Developer<br/>Resume·PDF</div>
+        <a href="Python Full Stack Resume.pdf" class="btn-primary" style="width:100%; justify-content:center; border-radius:9px;"
+           onclick="alert('Replace href with your actual resume PDF path.'); return false;">
+          ↓ Download Resume PDF
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="contact" class="section">
+
+    <div class="eyebrow"><div class="bar"></div>06 — Contact</div>
+    <h2 class="sec-title">Let's Work <span class="green">Together</span></h2>
+
+    <div class="contact-grid">
+
+      <div class="reveal-l">
+        <p class="c-tagline">
+          "Whether you have an opportunity, a collaboration idea, or just want to
+          say hello — I'd love to hear from you."
+        </p>
+        <div class="c-items">
+
+          <a href="mailto:santhoushs007@gmail.com" class="c-item">
+            <div class="c-icon">✉</div>
+            <div>
+              <div class="c-lbl">Email</div>
+              <div class="c-val">santhoushs007@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/santhoushs" target="_blank" class="c-item">
+            <div class="c-icon">💼</div>
+            <div>
+              <div class="c-lbl">LinkedIn</div>
+              <div class="c-val">linkedin.com/in/santhoushs</div>
+            </div>
+          </a>
+
+          <a href="tel:+918248683192" class="c-item">
+            <div class="c-icon">📞</div>
+            <div>
+              <div class="c-lbl">Phone</div>
+              <div class="c-val">+91 82486 83192</div>
+            </div>
+          </a>
+
+          <a href="https://github.com/santhoush007" target="_blank" class="c-item">
+            <div class="c-icon">⌥</div>
+            <div>
+              <div class="c-lbl">GitHub</div>
+              <div class="c-val">github.com/santhoush007</div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="contact-form reveal-r">
+        <div class="cf-title">Send a Message 💬</div>
+
+        <div class="cf-two">
+          <div class="cf-group">
+            <label class="cf-label" for="fname">First Name</label>
+            <input class="cf-input" id="fname" type="text" placeholder="John"/>
+          </div>
+          <div class="cf-group">
+            <label class="cf-label" for="lname">Last Name</label>
+            <input class="cf-input" id="lname" type="text" placeholder="Doe"/>
+          </div>
+        </div>
+
+        <div class="cf-group">
+          <label class="cf-label" for="email">Email Address</label>
+          <input class="cf-input" id="email" type="email" placeholder="john@example.com"/>
+        </div>
+
+        <div class="cf-group">
+          <label class="cf-label" for="subject">Subject</label>
+          <input class="cf-input" id="subject" type="text" placeholder="Job Opportunity / Collaboration"/>
+        </div>
+
+        <div class="cf-group">
+          <label class="cf-label" for="message">Message</label>
+          <textarea class="cf-textarea" id="message" placeholder="Hi Santhoush, I'd love to connect about..."></textarea>
+        </div>
+
+        <button class="btn-primary"
+          style="width:100%; justify-content:center; border:none; cursor:pointer;
+                 font-family:'Nunito',sans-serif; font-size:0.88rem;
+                 border-radius:9px; padding:14px;"
+          onclick="alert('Connect Formspree or a backend to enable form submission.')">
+          Send Message →
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">
+      <span>[</span><span class="blue">come let's create the different </span><span class="green">World</span><span>]</span>
+    </div>
+    <div class="footer-copy">© 2026 Santhoush S. — Python Developer. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="https://github.com/santhoush007"        target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/santhoushs" target="_blank">LinkedIn</a>
+      <a href="mailto:santhoushs007@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script>
+    const ham    = document.getElementById('ham');
+    const drawer = document.getElementById('drawer');
+
+    ham.addEventListener('click', () => {
+      ham.classList.toggle('open');
+      drawer.classList.toggle('open');
+    });
+
+    function closeDrawer() {
+      ham.classList.remove('open');
+      drawer.classList.remove('open');
+    }
+
+    const revEls = document.querySelectorAll('.reveal, .reveal-l, .reveal-r');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('v');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    revEls.forEach(el => io.observe(el));
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks  = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 100) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    }, { passive: true });
+  </script>
+
+</body>
+</html>
